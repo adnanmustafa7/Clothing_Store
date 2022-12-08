@@ -1,0 +1,75 @@
+ /* User SIgnin */
+
+.signin_button{
+    background-color: #253439 !important ;
+    border-color: #253439 !important;
+    height: 3rem !important;
+    width: 7rem !important;
+}
+.signin_button:hover{
+    background-color: #DCC4AC !important;
+    color:  black !important;
+    border-color: #DCC4AC !important;
+}
+.input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+
+
+}
+
+   /* User Signup */
+
+.input_field:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.signup_button{
+    background-color: #253439 !important ;
+    border-color: #253439 !important;
+    height: 3rem !important;
+    width: 7rem !important;
+}
+.signup_button:hover{
+    background-color: #DCC4AC !important;
+    color:  black !important;
+    border-color: #DCC4AC !important;
+
+}
+
+
+/* Dashboard */
+
+.position{
+    
+    position: fixed;
+    left: 0;
+    background-color: black ;
+}
+
+.navlink_{
+
+    color: black !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {   
+    background-color: #DCC4AC !important; 
+}
+
+    
+        /* Orders */
+
+ .search_bar{
+    border: none !important;
+    border-bottom: 1px solid !important;
+    width: 50% !important;
+
+ }
+        
+.search_bar:focus{
+
+    outline: none !important;
+    box-shadow: none !important;
+
+}

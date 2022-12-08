@@ -1,0 +1,36 @@
+.navbar1{
+    height: 2rem ;
+}
+
+.cart:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.search{
+    border-radius: 100px !important;
+}
+
+.search:focus{
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.main_nav:hover{
+
+    color: blue !important;
+
+}
+
+.main_nav:active{
+    color: blue !important;
+}
+
+.navlink{
+    margin-left: 10px;
+}
+
+.icone:hover{
+    color: red !important;
+}

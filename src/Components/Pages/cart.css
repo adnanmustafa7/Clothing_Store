@@ -1,0 +1,22 @@
+.font{
+
+    font-size: 1.3rem;
+
+}
+
+.button_color:focus{
+    background-color: red;
+   
+}
+
+.back_link{
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.back_link:hover{
+    text-decoration: underline;
+    color: red;
+}
