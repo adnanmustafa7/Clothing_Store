@@ -1,0 +1,80 @@
+ 
+  .footer-text-heading{
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  
+  .p-b-10{
+    padding-bottom: 10px;
+  }
+
+   .btn{
+    border-radius: 23px;
+    background-color: #717fe0 !important;
+    min-width: 179px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 1.466667;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: none;
+    border: none !important;
+    background: transparent;
+    cursor: pointer;
+   }
+
+   
+
+  .footer-list-text{
+    font-size: 13px !important;
+    line-height: 1.923 !important;
+    color:#b3aaa2 !important;
+  }
+
+
+  .footer-copyright{
+    text-align: center !important;
+    font-size: 13px !important;
+    line-height: 1.923 !important;
+    color:#b3aaa2 !important;
+  }
+  li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.p-t-27 {
+    padding-top: 27px;
+}
+ 
+.p-t-40{
+    padding-top: 40px;
+}
+  
+  footer {
+    background: #212529;
+    padding-top: 72px;
+    padding-bottom: 32px;
+  }
+
+
+  .icon-padding{
+    padding: 8px;
+}
+
+.text-style{
+   font-family: "Poppins",Helvetica,Arial,sans-serif;
+   color: #b3aaa2 !important;
+}

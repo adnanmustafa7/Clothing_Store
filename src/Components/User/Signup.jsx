@@ -10,6 +10,9 @@ import {
   Form
 }
 from 'react-bootstrap';
+import Header from '../Pages/Header';
+import Footer from '../Pages/Footer';
+
 
 function Signup() {
 
@@ -18,7 +21,8 @@ function Signup() {
     setPasswordShown(!passwordShown);
   };
   return (
-
+    <>
+    <Header/>
     <Container fluid>
       <Row className='justify-content-center align-items-center m-3'>
         <Card>
@@ -72,6 +76,8 @@ function Signup() {
         </Card>
       </Row>
     </Container>
+  <Footer/>
+  </>
   );
 }
 

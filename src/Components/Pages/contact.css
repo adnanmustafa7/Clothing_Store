@@ -1,0 +1,35 @@
+.icon-center{
+    display: flex;
+    justify-content: center;
+}
+
+.line-h{
+    line-height: 2em;
+}
+
+.icon-size{
+    height: 2em;
+    width: 2em;
+}
+
+.input-box-radius{
+    border-radius: 0px !important;
+}
+
+.container-border{
+    border: 1px;
+    border-radius: 0% !important;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}

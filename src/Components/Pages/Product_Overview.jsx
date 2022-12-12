@@ -41,12 +41,6 @@ const ProductOverView = ()=> {
         </Col>
     </Row>
 
-
-
-
-
-
-
         </Container> 
         
         </>

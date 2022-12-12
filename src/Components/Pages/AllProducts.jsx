@@ -1,9 +1,10 @@
 import './AllProducts.css'
 import React from 'react';
-import { Row, Col, Card, Button, Modal, Container, Form } from "react-bootstrap";
+import { Row, Col, Card, Button, Modal, Container, Form, Nav } from "react-bootstrap";
 import { FiHeart } from 'react-icons/fi'
 
 import img from '../assets/demo.jpg'
+import { Link } from 'react-router-dom';
 
 const ViewProductModal = (props) => {
   return (
@@ -31,9 +32,9 @@ const ViewProductModal = (props) => {
                 </div>
              <div>
               
-                 
+
                    <Form.Select className='w-50'>
-                      <option >Select Size</option>
+                      <option>Select Size</option>
                       <option value="2xl">2xl</option>
                       <option value="xl">xl</option>
                       <option value="large">large</option>
@@ -50,7 +51,6 @@ const ViewProductModal = (props) => {
                       <option value="Orange">Orange</option>
                    </Form.Select>
 
-
                       </div>
                       <div className='m-2'>
                       <input 
@@ -61,11 +61,14 @@ const ViewProductModal = (props) => {
                       size="1" 
                       id='number'
                       />
-
                </div>
+
                 <div className='mt-5'>
-                <Button className='p-2 button'>Add to Cart</Button>
+                <Nav.Link as={Link} to="/cart">
+                <Button className='p-2 button' >Add to Cart</Button>
+                </Nav.Link>
                 </div>
+              
               </Col>
             </Row>
             </Modal.Body>

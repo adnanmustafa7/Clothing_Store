@@ -10,7 +10,6 @@ import {
   } from "react-bootstrap";
 
   import {AiFillDelete} from 'react-icons/ai'
-  import {TiPlus, TiMinus} from 'react-icons/ti'
   import {IoChevronBack} from 'react-icons/io5'
 
   
@@ -53,9 +52,6 @@ const Cart = ()=>{
                     </Col>
                     <Col md="3" lg="3" xl="3" className="d-flex align-items-center">
                     
-                    <Button className="p-1 button_color">
-                    <TiMinus size={20}/>
-                    </Button>
                       
                       <input 
                       type="number" 
@@ -65,10 +61,6 @@ const Cart = ()=>{
                       size="1" 
                       id='number'
                       />
-
-                    <Button  className="p-1 button_color">
-                     <TiPlus size={20}/>
-                    </Button>
 
                     </Col>
                     <Col md="3" lg="2" xl="2" className="text-end">

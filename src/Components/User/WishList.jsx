@@ -1,21 +1,11 @@
-import {
-    Container,
-    Row,
-    Col,
-    Card,
-    Button
-    
-  } from "react-bootstrap";
-
-  import {RxCross2} from 'react-icons/rx'
-  import {TiPlus, TiMinus} from 'react-icons/ti'
-  import {IoChevronBack} from 'react-icons/io5'
-
+import { Container, Row, Col, Card } from "react-bootstrap";
+import {RxCross2} from 'react-icons/rx'
+import {IoChevronBack} from 'react-icons/io5'
 
 const Wishlist =()=>{
     return(
         <>
-        <Container className="py-5 h-100">
+  <Container className="py-5 h-100">
     <Row className="justify-content-center align-items-center h-100">
       <Col size="12">
         <Card style={{ borderRadius: "15px" }}>

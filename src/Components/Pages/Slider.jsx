@@ -8,7 +8,7 @@ const Slider = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://c4.wallpaperflare.com/wallpaper/83/500/871/waterfall-high-resolution-desktop-wallpaper-preview.jpg"
+          src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_960_720.jpg"
           height="600px"
           alt="First slide"
         />
@@ -21,7 +21,7 @@ const Slider = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://wallpaperaccess.com/full/12311.jpg"
+          src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
           height="600px"
           alt="Second slide"
         />
@@ -34,7 +34,7 @@ const Slider = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://c4.wallpaperflare.com/wallpaper/41/681/303/pc-hd-1080p-nature-1920x1080-wallpaper-preview.jpg"
+          src="https://cdn.pixabay.com/photo/2016/10/31/02/29/woman-1784755_960_720.jpg"
           height="600px"
           alt="Third slide"
         />

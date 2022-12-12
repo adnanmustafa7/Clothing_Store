@@ -34,3 +34,14 @@
 .icone:hover{
     color: red !important;
 }
+
+.nav_login{
+    margin-left: 10px;
+    font-size: 1.2rem !important;
+    text-decoration: underline; 
+}
+
+.nav_login:hover{
+    color: red !important;
+    text-decoration: underline !important;
+}

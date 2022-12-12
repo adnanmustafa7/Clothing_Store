@@ -1,0 +1,49 @@
+.bg-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.p-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p-tb{
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.ltext-105{
+    font-family: Poppins-Bold;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.cl0{
+    color: #fff;
+}
+
+
+.img-size{
+    height: 330px;
+    width: 330px;
+}
+
+.p-t-40{
+    padding-top: 40px;
+}
+
+
+.image-overflow{
+    display: block;
+    overflow: hidden
+}
+
+.text_{
+    text-align: justify !important;
+}
