@@ -2,14 +2,13 @@ import './user.css';
 import { Button, Container, Card, Row, Col, Form, Nav } from 'react-bootstrap';
 import img from '../assets/demo.jpg';
 import { Link } from 'react-router-dom';
-import Header from '../Pages/Header';
-import Footer from '../Pages/Footer';
+// import Header from '../Pages/Header';
+// import Footer from '../Pages/Footer';
 
 
 const Signin = () => {
     return (
         <>
-        <Header/>
         <Container className="my-3">
             <Card>
                 <Row className='g-0'>
@@ -34,7 +33,6 @@ const Signin = () => {
                 </Row>
             </Card>
         </Container>
-    <Footer />
     </>
 
 

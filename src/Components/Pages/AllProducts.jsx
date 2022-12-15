@@ -21,10 +21,10 @@ const ViewProductModal = (props) => {
 
             <Modal.Body>
             <Row>
-              <Col sm={12} lg={7}>
-                <img className='img' src={img} height={400} width={400} alt="" />
+              <Col sm={12} lg={7} className='d-flex box1'>
+                <img className='img' src={img} alt=""/>
               </Col>
-              <Col lg={5}>
+              <Col lg={5} className=''>
                 <div>
                 <h3>Watch </h3>
                 <h5>Price $140</h5>
@@ -86,8 +86,8 @@ const AllProducts = () => {
     <>
       <Row className='d-flex justify-content-evenly'>
         <Col lg={3} md={5} sm={12}>
-          <Card className="mt-5" style={{ width: '18rem' }}>
-            <Card.Img variant="top" className='img' src={img} height="290" width="290" />
+          <Card className="mt-5" style={{}}>
+            <Card.Img variant="top" className='img' src={img} />
             <Card.Body>
               <div className="d-flex justify-content-between">
                 <Card.Text className="text-muted">

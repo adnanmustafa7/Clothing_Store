@@ -1,15 +1,19 @@
 import { Carousel, Container } from "react-bootstrap"
+import './Slider.css'
+import SlideImage1 from '../../images/slide-01.jpg.webp'
+import SlideImage2 from '../../images/slide-02.jpg.webp'
+import SlideImage3 from '../../images/slide-04.jpg.webp'
 
 const Slider = ()=>{
     return (
         <>
-        <Container fluid>
+        <Container fluid className="p-0">
         <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_960_720.jpg"
-          height="600px"
+          src={SlideImage1}
+          //height="600px"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,8 +25,8 @@ const Slider = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
-          height="600px"
+          src={SlideImage2}
+          //height="600px"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -34,8 +38,8 @@ const Slider = ()=>{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://cdn.pixabay.com/photo/2016/10/31/02/29/woman-1784755_960_720.jpg"
-          height="600px"
+          src={SlideImage3}
+          //height="600px"
           alt="Third slide"
         />
 
