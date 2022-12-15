@@ -12,10 +12,10 @@ const Signin = () => {
         <Container className="my-3">
             <Card>
                 <Row className='g-0'>
-                    <Col md='5'>
+                    <Col md='6' className='d-flex box1'>
                         <img src={img} width="100%" height="464px" alt="" />
                     </Col>
-                    <Col md='4'>
+                    <Col md='6'>
                         <Card.Body className='d-flex flex-column'>
                             <h3 className="fw-normal my-4 pb-3 text-center" style={{ letterSpacing: '1px' }}>
                                 <b>Login</b></h3>
