@@ -93,7 +93,8 @@ const AllProducts = () => {
                 <Card.Text className="text-muted">
                   Watch
                 </Card.Text>
-                <FiHeart />
+                <Link to="/wishlist"><FiHeart color='red'/></Link>
+                
               </div>
               <Card.Text className="">
                 <span className="text-danger">$</span>140

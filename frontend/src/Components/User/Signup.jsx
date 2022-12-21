@@ -66,11 +66,9 @@ function Signup() {
               <Form.Check label="Show Password" onChange={togglePassword}/>
               </Col>
             </Row>
-
          </Col>
       </Row>
-
-           <Button className='mb-4 signup_button' size='lg'>Submit</Button>
+           <Button className='mb-4 signup_button' size='lg' type='submit'>Submit</Button>
             </Form>
           </Card.Body>
         </Card>
